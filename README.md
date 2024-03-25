@@ -6,12 +6,26 @@ To write a python program to find the inverse of a matrix
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step1 : 
+Import the numpy module to use the built-in functions for calculation
 ### Step 2: 
-### Step 3: 
+Prepare the matrix  and assign in np.array()
+### Step 3:
+Using the np.linalg.inv(), we can find the inverse.
 ### Step 4: 
-
+End the program.
 ## Program:
+```
+#Program to find the inverse of a matrix.
+#Developed by: BHAVYASHREE .R
+#RegisterNumber:212223110006
+import numpy as np
+matrix=np.array([[6,2,3],[3,1,1],[10,3,4]])
+result=np.linalg.inv(matrix)
+print(result)
+```
 ## Output:
+![image](https://github.com/Bhavyashree2403/INVERSE-OF-A-MATRIX/assets/149219738/0df76d56-9d73-49e4-9b3b-5fda5f954b13)
+
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
 
